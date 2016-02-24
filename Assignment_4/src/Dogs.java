@@ -1,6 +1,7 @@
 
 public class Dogs extends Mammals{
 	protected boolean stupid;
+	protected String friendlyName;
 	public Dogs(String latinName, int gestationTime, boolean Stupid) {
 		super(latinName, gestationTime);
 		this.stupid = Stupid;
@@ -9,8 +10,13 @@ public class Dogs extends Mammals{
 	public Dogs(String latinName, int gestationTime, boolean Stupid, String friendlyName) {
 		super(latinName, gestationTime);
 		this.stupid = Stupid;
+		this.friendlyName = friendlyName;
 		// TODO Auto-generated constructor stub
 	}
+	
+	/*Hämtar info/*
+	 * 
+	 */
 	public String getInfo() {
 		if(friendlyName == null){
 		String info = "latin name: " + latinName + ", gestation time is: " + gestationTime + " and stupid = " + stupid;

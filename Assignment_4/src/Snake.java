@@ -4,7 +4,9 @@ public class Snake extends Animal{
 	public Snake(String latinName, boolean poison) {
 		super(latinName);
 	}
-
+	/*Hämtar info/*
+	 * 
+	 */
 	public String getInfo() {
 		String info = "latin name: " + latinName + " and poison is: " + poison;
 		return info;

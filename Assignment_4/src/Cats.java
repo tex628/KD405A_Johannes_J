@@ -7,6 +7,9 @@ public class Cats extends Mammals{
 		super(latinName, gestationTime);
 		this.numberOfLives = numberOfLives;
 	}
+	/*Hämtar info/*
+	 * 
+	 */
 	public String getInfo() {
 		String info = "latin name: " + latinName + " gestation time is " + gestationTime + ", and it has " + numberOfLives + " lives";
 		return info;

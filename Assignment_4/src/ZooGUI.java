@@ -15,10 +15,11 @@ public class ZooGUI extends JFrame {
 	Dogs dog1;
 	Cats cat1;
 	
+	
 	public ArrayList<Animal> animalList = new ArrayList<Animal>(); {{
 		animalList.add(new Cats("Snax", 1, 1));
 		animalList.add(new Snake("SNAKKUS BIGGUS", true));
-		animalList.add(new Dogs("Voffi barkus", 1, true));
+		animalList.add(new Dogs("Voffi barkus", 1, true, "Testus"));
 		animalList.add(new Snake("SLytherin", false));
 		animalList.add(new Dogs("DOGE", 63, true));
 		animalList.add(new Cats("kissimissi", 19, 12));
