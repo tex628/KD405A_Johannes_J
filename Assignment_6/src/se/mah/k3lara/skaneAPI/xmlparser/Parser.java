@@ -16,7 +16,7 @@ import se.mah.k3lara.skaneAPI.model.Line;
 import se.mah.k3lara.skaneAPI.model.Lines;
 import se.mah.k3lara.skaneAPI.model.Station;
 
-public class Parser {
+public class Parser{
 	  /**
   	 * Calls Skånetrafiken API and searches for stations containing a String
   	 * Use this Url to test from a browser:
