@@ -104,8 +104,11 @@ public class GUI extends JFrame {
 		JLabel lblTill = new JLabel("Till");
 		lblTill.setBounds(597, 159, 56, 16);
 		contentPane.add(lblTill);
-		textArea.setBounds(96, 256, 459, 159);
-		contentPane.add(textArea);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(96, 256, 459, 159);
+		contentPane.add(scrollPane);
+		scrollPane.setViewportView(textArea);
 	}
 	
 	private class thread extends Thread{
